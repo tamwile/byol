@@ -1,3 +1,3 @@
 
 all:
-	gcc -std=c99 -Wall main.c -ledit -o lispy
+	gcc -std=c99 -Wall evaluation.c mpc.c -ledit -lm -o lispy
